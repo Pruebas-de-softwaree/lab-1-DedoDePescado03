@@ -36,5 +36,6 @@ if __name__ == "__main__":
     #usuario = userManager.find_user("1")
     #userManager.delete_user("1")
     #usuario = userManager.find_user(1)
-    allUsers = userManager.get_all_names()
+    #allUsers = userManager.get_all_names()
+    avgUsersId = userManager.average_user_id() 
     print("end")
