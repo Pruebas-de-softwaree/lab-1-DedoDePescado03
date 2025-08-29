@@ -34,6 +34,7 @@ if __name__ == "__main__":
         userManager.add_user(i, f"User {i}")
     
     #usuario = userManager.find_user("1")
-    userManager.delete_user("1")
-    usuario = userManager.find_user(1)
+    #userManager.delete_user("1")
+    #usuario = userManager.find_user(1)
+    allUsers = userManager.get_all_names()
     print("end")
