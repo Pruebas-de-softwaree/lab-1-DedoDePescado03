@@ -27,3 +27,8 @@ class UserManager:
 
 
 if __name__ == "__main__":
+    userManager = UserManager()
+    for i in range (500):   
+        userManager.add_user(i, f"User {i}")
+
+    print("end")
