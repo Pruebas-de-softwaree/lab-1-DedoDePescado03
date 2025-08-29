@@ -30,8 +30,8 @@ if __name__ == "__main__":
     userManager = UserManager()
 
     
-    for i in range (1000):   
-        userManager.add_user(i, f"User {i}")
+    #for i in range (1000):   
+    #    userManager.add_user(i, f"User {i}")
     
     #usuario = userManager.find_user("1")
     #userManager.delete_user("1")
@@ -39,8 +39,16 @@ if __name__ == "__main__":
     #allUsers = userManager.get_all_names()
     #avgUsersId = userManager.average_user_id() 
     #usuario = userManager.find_user(1)
+    '''
     initialTime = time.time()
     usuario = userManager.find_user(980)
     finalTime = time.time()
     print(f"Se tardó {finalTime - initialTime} en encontrar el usuario")
+    '''
+    userManager.add_user(1, f"User 1-1")
+    userManager.add_user(1, f"User 1")
+    userManager.delete_user(1)
+
+    usuario = userManager.find_user(1)
+
     print("end")
