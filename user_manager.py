@@ -44,11 +44,15 @@ if __name__ == "__main__":
     usuario = userManager.find_user(980)
     finalTime = time.time()
     print(f"Se tardó {finalTime - initialTime} en encontrar el usuario")
-    '''
+    
     userManager.add_user(1, f"User 1-1")
     userManager.add_user(1, f"User 1")
     userManager.delete_user(1)
 
     usuario = userManager.find_user(1)
+    '''
+    userManager.find_user(1)
+    userManager.delete_user(1)
+
 
     print("end")
