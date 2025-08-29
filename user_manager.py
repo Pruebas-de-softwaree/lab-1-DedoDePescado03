@@ -50,9 +50,10 @@ if __name__ == "__main__":
     userManager.delete_user(1)
 
     usuario = userManager.find_user(1)
-    '''
+    
     userManager.find_user(1)
     userManager.delete_user(1)
-
+    '''
+    avgUsersId = userManager.average_user_id() 
 
     print("end")
