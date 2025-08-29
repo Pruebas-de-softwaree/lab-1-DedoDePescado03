@@ -33,5 +33,5 @@ if __name__ == "__main__":
     for i in range (500):   
         userManager.add_user(i, f"User {i}")
     
-    usuario = userManager.find_user(1)
+    usuario = userManager.find_user("1")
     print("end")
