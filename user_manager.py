@@ -30,12 +30,13 @@ if __name__ == "__main__":
     userManager = UserManager()
 
     
-    for i in range (500):   
+    for i in range (1000):   
         userManager.add_user(i, f"User {i}")
     
     #usuario = userManager.find_user("1")
     #userManager.delete_user("1")
     #usuario = userManager.find_user(1)
     #allUsers = userManager.get_all_names()
-    avgUsersId = userManager.average_user_id() 
+    #avgUsersId = userManager.average_user_id() 
+    usuario = userManager.find_user(1)
     print("end")
